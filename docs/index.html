@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./visuals/images/LogoHD_DGSE_0.png" />
+    <title>Profils Xan & Joan</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="./visuals/images/LogoHD_DGSE_0.png" alt="icone" width="100">
+        <ul class="nav-links">
+            <li>
+                <a href="#" class="li1" onclick="redirectNous(event)">Nous</a>
+            </li>
+            <li>
+                <a href="#" class="li2" onclick="redirectJoan(event)">Joan Delayat</a>
+            </li>
+            <li>
+                <a href="#" class="li3" onclick="redirectXan(event)">Xan Delayat</a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="navbar-2">" "</nav>
+    <nav class="navbar-3">" "</nav>
+    <nav class="navbar-4">" "</nav>
+
+    <div id="app" style="color: white;"></div>
+
+        <script>
+    window.addEventListener("DOMContentLoaded", () => {
+        redirectNous();
+    });
+    </script>
+    
+
+
+    <hr class="line" />
+    <footer>
+        <a class="footer-text">Page dévelopée par Xan Delayat</a>
+    </footer>
+
+    <script>
+        function redirectNous(event) {
+            document.getElementById("app").innerHTML = `
+          
+                               <h1 class="sub-body style="color: white;">Nous</h1>
+                               <p class="sub-body">
+                               Nous sommes jumeaux, nous sommes en 1ère année de cycle ingénieur du numérique
+                               à JUNIA Bordeaux. Nous avons effectué auparavant un BTS CIEL (Cybersécurité, Informatique, ELectronique & réseau).
+                               À partir de ce BTS, nous avons chacun pu commencer à s'émanciper dans un domaine.
+                               Joan s'est plutôt orienté vers la cybersécurité, tandis que Xan s'est dirigé vers le développement logiciel et web.
+                               À l'issue de cette première année de cycle ingénieur, nous devons choisir une spécialisation, qui sont donc
+                               évidentes pour chacun. Nous souhaitons mettre au travail nos compétences acquises sur ces 3 ans d'études au profit
+                               de la sécurité nationale.
+                               </p>
+
+                               <p class="sub-body" style="font-weight: bold;"><br><br>Pourquoi nous orientons nous vers la défense ?<br></p>
+
+                               <p class="sub-body"><br>
+                               En terminale, nous avions pour vocation d'intégrer le Lycée Militaire de St-Cyr pour
+                               pouvoir suivre un BTS Cyber. Malheureusement, la candidature n'a pas pu aboutir.
+                               <br><br>
+                               JUNIA est partenaire avec l'armée, ce qui nous a permis de recevoir des interventions
+                               de l'armée de terre, des conférences sur la situation géopolitique de Taïwan (présentés par
+                               le chef d'état-major Le Gral), des officiers en cybersécurité, ainsi que la rencontre du général Frédéric Hingray.
+                               Tout cela nous a motivé à revenir sur notre projet initial d'intégrer la défense nationale mais en
+                               passant par une alternance.
+                               <br>
+                               </p>
+
+                               <p class="sub-body" style="font-weight: bold;"><br><br>Pourquoi Nous ?</p>
+
+                               <p class="sub-body"><br>
+                               Le travail que nous ne remarquons pas dans notre quotidien qui pourtant est grandement présent dans 
+                               la sécurité de notre nation. Notre objectif est que l'on puisse s'exercer dans un environnement confidentiel et 
+                               stratégique qui correspondent à certains de nos traits personnels. Nous souhaitons avec notre force de dualité, 
+                               l'un en cybersécurité, l'autre en développement, et en tant qu'une entité scindée en deux individus distincts pouvoir en 
+                               tant que petite équipe, compléter une équipe déjà présente sur le terrain pour n'en faire qu'un. Le cadre authentique des 
+                               services de renseignements qui est symbole de qualité, d'exploitation du meilleur de nous même, plutôt que de nous limiter 
+                               à de simples ordres comme nous pouvons l'entendre quelques fois. Nous savons qu'avec le temps, cette opportunité pourrait 
+                               nous tirer au meilleur de nous même sans même que cela soit su à l'extérieur, en contrepartie notre contribution pour la 
+                               défense sera d'autant plus à la pointe et à la hauteur des stratégies attendues. L'objet de l'alternance dans ce service 
+                               n'est pas seulement l'application de nos connaissances dans nos domaines respectifs mais aussi une adhésion à une valeur, 
+                               celle de défendre la population en arrière-plan avec une équipe soudée et forte, capable de se surpasser face aux forces 
+                               dangereuses extérieurs. 
+                               
+                               <br><br>
+                            </p>
+
+                                <style>
+                                    .sub-body {
+                                        margin-left: 100px;
+                                        margin-right: 100px;
+                                    }
+                                </style>
+                            `;
+        }
+
+        function redirectJoan(event) {
+            document.getElementById("app").innerHTML = `
+<div class="page">
+                                                        <h1 class="sub-body">Joan Delayat</h1>
+
+                                                        <div class="info-grid">
+                                                            <div class="label"><br><br>Infos</div>
+                                                            <div class="content"><br><br>
+                                                                Âge : 20 ans<br>
+                                                                Nationalité : Français
+                                                            </div>
+
+                                                            <div class="label"><br>Coordonnées</div>
+                                                            <div class="content"><br>
+                                                                joandelayat64500@gmail.com<br>
+                                                                310 Bd Jean Jacques Bosc, 33130 Bègles<br>
+                                                                07 86 53 42 65<br>
+                                                                <img src="./visuals/images/linkedin-icon.png" alt="linkedin" width="10">  <a href="https://www.linkedin.com/in/joan-delayat-102452318/" style="color: cyan;">Mon Linkedin</a>
+                                                            </div>
+
+                                                            <div class="label"><br>Mes motivations</div>
+                                                            <div class="content"><br>
+                                                                Actuellement étudiant en cybersécurité, je souhaite m’engager dans une alternance sur deux ans afin de mettre mes compétences techniques au service de la défense du territoire. Sensible aux enjeux actuels, je m’intéresse particulièrement à la géopolitique. J’adhère pleinement aux valeurs de loyauté, de confidentialité et de sens du devoir, essentielles dans les missions de protection des systèmes et des informations sensibles. Cette alternance représente pour moi l’opportunité d’agir concrètement dans l’intérêt collectif tout en développant une expertise solide et responsable.
+                                                            </div>
+
+                                                            <div class="label"><br>Mes soft skills</div>
+                                                            <div class="content"><br>
+                                                            <ul>
+                                                            <li>Sociabilisation et adaptation rapide</li>
+<li>Très bonne mémoire</li>
+<li>Capacité à être concentré sur une longue durée</li>
+<li>Soucieux des détails</li>
+<li>Très curieux</li>
+</ul>
+                                                            </div>
+
+                                                            <div class="label"><br>Mes compétences</div>
+                                                            <div class="content"><br>
+                                                            <ul>
+                                                            <li>Cybersécurité: Paintesting Web et Paintesting Réseaux, Sécurité de réseaux (pfSense, Configurations de matériel), Utilisations d'outils comme Wireshark, Nmap, BurpSuite.</li>
+<li>Participation à plusieurs CTF: EuroRace 2024 Cisco, Passe Ton Hack d'abord 2024, Cadet Star Hack 2025, Bug Bounty</li>
+<li>Certifications Cisco: Parcours Cisco Associate</li>
+<li>Apprentissage du russe en autodidacte</li>
+</ul>
+                                                            </div>
+                                                        </div>
+</div>
+
+<style>
+.page {
+                                                        max-width: 900px;
+                                                        margin: 0 auto;
+                                                        padding: 1rem;
+
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        align-items: flex-start;
+}
+
+.info-grid {
+                                                        display: grid;
+                                                        grid-template-columns: max-content auto;
+                                                        column-gap: 2rem;
+                                                        row-gap: 1rem;
+
+                                                        width: 100%;
+}
+
+.label {
+                                                        font-weight: bold;
+                                                        text-align: left;
+}
+
+.content {
+                                                        text-align: left;
+}
+
+@media (max-width: 768px) {
+                                                        .info-grid {
+                                                            grid-template-columns: 1fr;
+                                                        }
+}
+</style>
+
+                                                                                    `;
+        }
+
+        function redirectXan(event) {
+            document.getElementById("app").innerHTML = `
+<div class="page">
+                                                        <h1 class="sub-body">Xan Delayat</h1>
+
+                                                        <div class="info-grid">
+                                                            <div class="label"><br><br>Infos</div>
+                                                            <div class="content"><br><br>
+                                                                Âge : 20 ans<br>
+                                                                Nationalité : Français
+                                                            </div>
+
+                                                            <div class="label"><br>Coordonnées</div>
+                                                            <div class="content"><br>
+                                                                xandelayat@gmail.com<br>
+                                                                310 Bd Jean Jacques Bosc, 33130 Bègles<br>
+                                                                06 72 40 33 43<br>
+                                                                <img src="./visuals/images/linkedin-icon.png" alt="linkedin" width="10">  <a href="https://www.linkedin.com/in/xan-delayat-397a72302/" style="color: cyan;">Mon LinkedIn</a>
+                                                                <br>
+                                                            </div>
+
+                                                            <div class="label"><br>Mes motivations</div>
+                                                            <div class="content"><br>
+                                                                Intégrer la CND serait pour moi une opportunité exceptionnelle de retourner
+                                                                sur ma conviction de contribuer à la défense de ma nation à la suite ma
+                                                                candidature au BTS Cyber du Lycée Militaire de St-Cyr qui n'a pas
+                                                                pu aboutir. Cependant, j'ai pu suivre
+                                                                un BTS Cyber où j'ai pu participer à des CTF, où j'ai pu réaliser des projets en C++
+                                                                et Dev Web et ainsi acquérir un maximum de compétences afin de revenir sur mon projet
+                                                                d'il y a quelques années mais en alternance en tant que développeur.
+                                                                Ma discrétion, ma loyauté et mon sens du devoir sont des valeurs que je partage
+                                                                entièrement avec celles de la DGSE et je suis convaincu qu'elles me permettront de
+                                                                servir aussi longtemps que possible au sein de votre institution.
+
+                                                            </div>
+
+                                                            <div class="label"><br>Mes soft skills</div>
+                                                            <div class="content"><br>
+                                                            <ul>
+                                                            <li>Résilient </li>
+                                                            <li>Curieux</li>
+                                                            <li>Rigoureux</li>
+                                                            <li>Sociable</li>
+                                                            <li>Discret</li>
+                                                            </ul>
+                                                            </div>
+
+<div class="label">Mes compétences</div>
+<div class="content">
+
+    <div class="section-title">Développement logiciel</div>
+    <ul>
+        <li>Pointeurs (C / C++ / Qt)</li>
+        <li>Gestion de la mémoire (C / C++ / C#)</li>
+        <li>Programmation orientée objet (C++ / Java / Qt)</li>
+    </ul>
+
+    <div class="section-title">Développement Front-End</div>
+    <ul>
+        <li>JS / HTML / CSS / Bootstrap</li>
+    </ul>
+
+    <div class="section-title">Développement Back-End</div>
+    <ul>
+        <li>PHP / JS / Symfony / Doctrine / ORM / API REST</li>
+        <li>Base de données : SQL</li>
+        <li>Next.js / Node.js</li>
+    </ul>
+
+    <div class="section-title">Outils</div>
+    <ul>
+        <li>Git / GitHub / VisualStudio / CLion / PHPStorm / IntelliJ / MySQL / Merise / PhpMyAdmin</li>
+    </ul>
+
+</div>
+
+<div class="label">Travaux</div>
+<div class="content">
+    <ul>
+        <li><a href="https://github.com/xandelayat64/Acces_GSM_WebApp" style="color: cyan;">Projet Front-End BTS CIEL</a></li>
+        <li><a href="https://github.com/xandelayat64/Internship-Project" style="color: cyan;">Projet Stage BTS CIEL</a> (Code confidentiel à l'entreprise, explications projet dans repo)</li>
+        <li><a href="https://github.com/xandelayat64/Password-Generator" style="color: cyan;">Mini outil générateur de mot de passes personnel</a></li>
+        <li><a href="https://github.com/xandelayat64/RussianRoulette" style="color: cyan;">Roulette russe sur interface web dynamique avec server local</a></li>
+        <li><a href="https://github.com/xandelayat64/GDPrivateServerList" style="color: cyan;">Petit site à la demande de mon frère jumeau</a></li>
+    </ul>
+</div>
+
+<style>
+.page {
+                                                        max-width: 900px;
+                                                        margin: 0 auto;
+                                                        padding: 1rem;
+
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        align-items: flex-start;
+}
+
+.info-grid {
+                                                        display: grid;
+                                                        grid-template-columns: max-content auto;
+                                                        column-gap: 2rem;
+                                                        row-gap: 1rem;
+
+                                                        width: 100%;
+}
+
+.label {
+                                                        font-weight: bold;
+                                                        text-align: left;
+}
+
+.content {
+                                                        text-align: left;
+}
+
+@media (max-width: 768px) {
+                                                        .info-grid {
+                                                            grid-template-columns: 1fr;
+                                                        }
+}
+</style>
+                                                                                `;
+        }
+    </script>
+</body>
+
+</html>
+
+<style>
+    body {
+        background: linear-gradient(to bottom, #0c0c0c, #000000);
+        font-family: Arial, sans-serif;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        background: linear-gradient(to right, #101010, #2b2b2b);
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+
+        .nav-links a {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+
+            .nav-links a:hover {
+                color: red;
+            }
+
+
+    .navbar-2 {
+        display: flex;
+        align-items: center;
+        background-color: blue;
+        font-size: 4px;
+        color: blue;
+    }
+
+    .navbar-3 {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        font-size: 4px;
+        color: white;
+    }
+
+    .navbar-4 {
+        display: flex;
+        align-items: center;
+        background-color: red;
+        font-size: 4px;
+        color: red;
+    }
+
+    .line {
+        width: 60%;
+        border: none;
+        background-color: #515151;
+        height: 1px;
+        margin-left: auto;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1rem;
+        color: #808080;
+    }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
